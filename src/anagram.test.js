@@ -1,5 +1,3 @@
-import checkAnagram from "./anagram";
-
 describe("checkAnagram", () => {
   test("should return true for two anagrams", () => {
     const word1 = "rat";

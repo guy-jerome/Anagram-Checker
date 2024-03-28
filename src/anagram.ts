@@ -23,3 +23,8 @@ export default function checkAnagram(word1: string, word2: string) {
 
   return true;
 }
+
+const word1 = "rat";
+const word2 = "art";
+const result = checkAnagram(word1, word2);
+console.log(result);
