@@ -1,5 +1,5 @@
 export default function checkAnagram(word1: string, word2: string) {
-  const wordStore: object = {};
+  const wordStore: { [key: string]: number } = {};
   for (let char of word1) {
     if (wordStore[char] === undefined) {
       wordStore[char] = 1;
@@ -9,7 +9,7 @@ export default function checkAnagram(word1: string, word2: string) {
   }
   for (let char of word2) {
     if (wordStore[char] === undefined) {
-      false;
+      return false;
     } else {
       wordStore[char]--;
     }

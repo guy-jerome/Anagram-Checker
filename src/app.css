@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+header {
+  padding: 10px;
+  text-align: center;
+  background-color: rgb(204, 163, 110);
+  box-shadow: 3px 6px 10px 4px rgb(50, 41, 28);
+  height: 10%;
+}
+main {
+  display: flex;
+  padding: 10px;
+  margin: 20px;
+  height: 15%;
+  align-items: center;
+  justify-content: center;
+}
+main * {
+  margin: 5px;
+  height: 30px;
+}
+main button {
+  background-color: darkslategray;
+  color: aliceblue;
+  border-radius: 5px;
+  cursor: pointer;
+}
